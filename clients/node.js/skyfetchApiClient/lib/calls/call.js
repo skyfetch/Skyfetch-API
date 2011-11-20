@@ -65,7 +65,7 @@ Call.prototype.exec = function() {
             this.params.data = JSON.stringify(this.params.data);
         }
         request.setHeader('Content-Type', 'application/json');
-        request.setHeader('Content-Length', this.params.data.length)
+        //request.setHeader('Content-Length', this.params.data.length)
         request.end(this.params.data);
     } else {
         request.end('');

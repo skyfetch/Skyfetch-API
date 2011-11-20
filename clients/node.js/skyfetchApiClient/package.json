@@ -1,0 +1,19 @@
+{
+    "author": "Phillip Rosen <phill@skyfetch.com>",
+    "name": "skyfetchapiclient",
+    "description": "A client for the skyfetch (www.skyfetch.com) api",
+    "version": "0.0.3",
+    "repository": {
+        "url": ""
+    },
+    "main": "./index.js",
+    "engines": {
+        "node": ">= 0.4.0"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/skyfetch/Skyfetch-API.git"
+    }
+}
